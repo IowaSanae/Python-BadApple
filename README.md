@@ -7,6 +7,8 @@ A program that will display Bad Apple in its entirety into the command-line.
 You will need Python to run this program. (duh) <br>
 Don't have Python? Download it [here](https://www.python.org/downloads/).
 
+### Libraries
+opencv-python <br>
 
 ## Run the program
 Use this command to run the program `python3 main.py`.
