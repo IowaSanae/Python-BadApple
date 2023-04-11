@@ -4,7 +4,8 @@ A program that will output Bad Apple in its entirety into the command-line.
 
 ## Getting started
 ### Requirements
-You will need Python to run this program. Don't have Python? Download it [here](https://www.python.org/downloads/).
+You will need Python to run this program. (duh)
+Don't have Python? Download it [here](https://www.python.org/downloads/).
 
 
 ## Run the program
