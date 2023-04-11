@@ -1,5 +1,5 @@
 # Python-BadApple
-A program that will output Bad Apple in its entirety into the command-line.
+A program that will display Bad Apple in its entirety into the command-line.
 
 
 ## Getting started
