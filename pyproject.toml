@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "python-badapple"
+version = "0.1.0"
+description = "A program that will display Bad Apple in its entirety into the command-line."
+authors = ["Tyler Williams <sun1231010@gmail.com>"]
+readme = "README.md"
+packages = [{include = "python_badapple"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+"opencv-python," = "pydub"
+
+[tool.poetry.group.dev.dependencies]
+opencv-python = "^4.7.0.72"
+pydub = "^0.25.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
