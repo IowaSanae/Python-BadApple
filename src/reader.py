@@ -1,6 +1,8 @@
 import cv2 as cv
 import os
 import time
+from pygame import mixer
+
 
 def video_reader(video: cv.VideoCapture, console_width: int, console_height: int) -> None:
     # Define the character list
@@ -18,8 +20,6 @@ def video_reader(video: cv.VideoCapture, console_width: int, console_height: int
 
         # Show the original video (as a reference)
         cv.imshow("Video", frame)
-
-        time.sleep(0.00001) # temporary solution to make the video play at a normal speed
 
         if not ret:
             break
@@ -42,7 +42,11 @@ def video_reader(video: cv.VideoCapture, console_width: int, console_height: int
         os.system("cls")
         print("\n".join(frame_chars))
 
-
         if cv.waitKey(1) == ord('q'):
             break
 
+
+def audio_player(audio_file: str) -> None:
+    mixer.init()
+    mixer.music.load(audio_file)
+    mixer.music.play()
