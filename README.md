@@ -9,9 +9,10 @@ Don't have Python? Download it [here](https://www.python.org/downloads/).
 
 ### Libraries
 opencv-python <br>
+pygame <br>
 
 ## Run the program
-Use this command to run the program `python3 main.py`.
+Use this command to run the program `python3 src/main.py`.
 
 
 ## Acknowledgements
