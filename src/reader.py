@@ -42,9 +42,10 @@ def video_reader(video: cv.VideoCapture, console_width: int, console_height: int
         os.system("cls")
         print("\n".join(frame_chars))
 
-        if cv.waitKey(1) == ord('q'):
+        if cv.waitKey(13) == ord("q"):
             break
 
+    video.release()
 
 def audio_player(audio_file: str) -> None:
     mixer.init()
